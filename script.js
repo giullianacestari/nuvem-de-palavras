@@ -34,9 +34,6 @@ document.addEventListener("DOMContentLoaded", function () {
     // espaçamento entre as palavras
     grafico.textSpacing(10);
 
-    // cor de fundo do gráfico
-    grafico.background().fill("#000000");
-
     // desenha o gráfico
     grafico.draw();
   });
