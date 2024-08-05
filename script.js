@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", function () {
     // Atualiza os dados do gráfico e redesenha
     grafico.data(texto, {
       mode: "by-word", // modo de análise de texto
-      maxItems: 16, // número máximo de itens
+      maxItems: 6, // número máximo de itens
       minLength: 5, // tamanho mínimo das palavras
     });
 
